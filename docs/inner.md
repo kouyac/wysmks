@@ -13,10 +13,7 @@
 *   **多列文本串行冲突：** 由于该类证件内页采用双页对称的复杂表格排版，普通的通用文本行检测器（Text Line Detector）在未经过版式分析时，极易把左页的“姓名”和右页的“姓名”连在一起横向读错，导致数据产生严重的横向串行。
 *   **版面分割解决方案：** 在文本行识别前，必须引入基于语义分割（Semantic Segmentation）的版式分析模型（如 LayoutParser），利用投影直方图算子优先将页面从中间中缝处切分为“左 ROI 区域”和“右 ROI 区域”两个独立的逻辑文本空间，再分别送入下游 OCR 引擎。
 
-<div align="center">
-  <img src="images/divorce_certificate_sample.png" alt="面向民政登记文档识别的双页文本切分与 LayoutLM 语义对齐标注参考" width="450">
-  <p><em>图 2-1：内页双页多模态边界框（Bounding Boxes）空间多目标分割与语义实体分类标注示例</em></p>
-</div>
+
 
 ---
 
