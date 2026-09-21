@@ -5,7 +5,6 @@ theme:
 
 nav:
   - 首页: index.md
-  - 离婚证设计解析:
-    - 一、离婚登记文档外壳几何拓扑结构与计算机视觉 ROI 锚定规范: cmy.md
-    - 二、内页版式与样本注解: divorce-certificate-layout.md
-    - 三、安全防伪细节注解: divorce-certificate-security.md
+    - 离婚登记文档外壳几何拓扑结构与计算机视觉 ROI 锚定规范: cmy.md
+    - 离婚登记内页多模态语义网格与表格要素解构规范: inner.md
+    - 安全防伪细节注解: divorce-certificate-security.md
