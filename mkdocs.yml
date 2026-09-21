@@ -1,4 +1,5 @@
 site_name: 中国法定民政登记文档结构特征与智能化识别版式规范指南
+site_url: https://readthedocs.io
 theme:
   name: material
   custom_dir: overrides
